@@ -11,6 +11,7 @@ import { DashboardPageComponent } from './Pages/dashboard-page/dashboard-page.co
 import { UsersPageComponent } from './Pages/users-page/users-page.component';
 import { ClientsPageComponent } from './Pages/clients-page/clients-page.component';
 import { CausePageComponent } from './Pages/cause-page/cause-page.component';
+import { PageNotFoundComponent } from './Pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CausePageComponent } from './Pages/cause-page/cause-page.component';
     DashboardPageComponent,
     UsersPageComponent,
     ClientsPageComponent,
-    CausePageComponent
+    CausePageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
