@@ -1,0 +1,25 @@
+.table {
+    border: 1px solid #ddd;
+  }
+  
+  .table-row-group {
+    display: table-row-group;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell:first-child {
+    border-left: 1px solid #ddd;
+  }
+  
+  .table-cell:last-child {
+    border-right: 1px solid #ddd;
+  }
+  

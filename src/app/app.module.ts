@@ -12,6 +12,8 @@ import { UsersPageComponent } from './Pages/users-page/users-page.component';
 import { ClientsPageComponent } from './Pages/clients-page/clients-page.component';
 import { CausePageComponent } from './Pages/cause-page/cause-page.component';
 import { PageNotFoundComponent } from './Pages/page-not-found/page-not-found.component';
+import { LoginComponent } from './Pages/login/login.component';
+import { SingUpComponent } from './Pages/sing-up/sing-up.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { PageNotFoundComponent } from './Pages/page-not-found/page-not-found.com
     UsersPageComponent,
     ClientsPageComponent,
     CausePageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LoginComponent,
+    SingUpComponent
   ],
   imports: [
     BrowserModule,
